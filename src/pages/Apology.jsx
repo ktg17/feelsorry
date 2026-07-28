@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const PARTS = [
-  "I've been thinking about what happened, and I owe you a proper apology — not a half one.",
-  "I doubted you without really giving you the space to explain first. I let an assumption turn into something bigger than it needed to be, and that wasn't fair to you — especially from someone who actually pays attention to the little things about you.",
-  "and when you did explain — I still held onto that doubt for a bit instead of just trusting what you told me. that's on me. I should've known better, considering how much I notice about you normally.",
-  "I also reacted badly when you were trying to just be honest with me. I said things that came out harsher than I meant, and I know that hurt you — you told me it did, and I believe you.",
+  "I've been thinking about what happened, and I owe you a proper apology, not a half one.",
+  "I doubted you without really giving you the space to explain first. I let an assumption turn into something bigger than it needed to be, and that wasn't fair to you, especially from someone who actually pays attention to the little things about you.",
+  "and when you did explain, I still held onto that doubt for a bit instead of just trusting what you told me. that's on me. I should've known better, considering how much I notice about you normally.",
+  "I also reacted badly when you were trying to just be honest with me. I said things that came out harsher than I meant, and I know that hurt you. you told me it did, and I believe you.",
   "you didn't deserve to feel like you had to defend yourself to me, or like understanding you was optional. it isn't. not to me, not when it comes to you.",
-  "I keep thinking about how easily I usually notice things about you — and how badly I read this one. that gap bothers me more than I expected it to.",
+  "I keep thinking about how easily I usually notice things about you, and how badly I read this one. that gap bothers me more than I expected it to.",
   "I'm sorry. genuinely.",
 ]
 
