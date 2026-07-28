@@ -5,7 +5,7 @@ const PARTS = [
   "I read what you said back to me, and I want you to know I actually heard it.",
   "you said sometimes even when someone's right, people have already made up their mind — and it becomes hard to change that. I think that's exactly what I did to you. I'd already decided something, and I made it hard for you to reach me.",
   "you said you weren't trying to hurt me, and I believe that. I don't think you meant it the way it landed. but it still landed hard, and I think it's fair that both of those things can be true at once.",
-  "I also get now that when you said 'clarify and leave the rest' — that's not you not caring. that's you protecting yourself after being misunderstood before. I just wish I'd been someone you didn't have to protect yourself from.",
+  "I also get now that when you said 'clarify and leave the rest' — that's not you not caring. that's you protecting yourself after being misunderstood before. I just wish I'd been someone you didn't have to protect yourself from — I'd like to think I'm usually better than that, with you.",
   "I want to be that person going forward. someone you don't have to brace yourself around.",
 ]
 
