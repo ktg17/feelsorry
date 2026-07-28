@@ -7,6 +7,7 @@ const PARTS = [
   "and when you did explain — I still held onto that doubt for a bit instead of just trusting what you told me. that's on me.",
   "I also reacted badly when you were trying to just be honest with me. I said things that came out harsher than I meant, and I know that hurt you — you told me it did, and I believe you.",
   "you didn't deserve to feel like you had to defend yourself to me, or like understanding you was optional for me. it wasn't. it isn't.",
+  "and honestly, part of why this bothered me so much is because I like you. I care about you. you matter to me, more than I probably show sometimes — and that's exactly why I hate that I made you feel small in that moment.",
   "I'm sorry. genuinely.",
 ]
 
