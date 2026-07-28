@@ -2,6 +2,14 @@ import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
 const IMAGINE_ROUTE = '/closeeyes'
+// Soft piano carries the closing stretch, from "I still hate you btw." onward.
+const SOFT_ROUTES = ['/tease', '/forward', '/message']
+
+function trackFor(pathname) {
+  if (pathname === IMAGINE_ROUTE) return '/imagine.mp3'
+  if (SOFT_ROUTES.includes(pathname)) return '/soft.mp3'
+  return '/sorry.mp3'
+}
 
 export default function MusicPlayer() {
   const audioRef = useRef(null)
@@ -41,11 +49,11 @@ export default function MusicPlayer() {
     }
   }, [])
 
-  // Swap the track when entering or leaving the close-your-eyes page.
+  // Swap the track when the route calls for a different one.
   useEffect(() => {
     const audio = audioRef.current
     if (!audio) return
-    const src = pathname === IMAGINE_ROUTE ? '/imagine.mp3' : '/sorry.mp3'
+    const src = trackFor(pathname)
     if (audio.getAttribute('src') === src) return
 
     const swap = () => {
