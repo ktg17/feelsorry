@@ -11,13 +11,13 @@ export default function GoingForward() {
         lineHeight: 1.8, marginBottom: 20 }}>
         I'm not writing this expecting things to just go back to normal right away. I know that's not really how it works.
         <br /><br />
-        I just didn't want to let this sit unresolved, or leave you thinking I don't take it seriously. I do — because you do too, to me.
+        I just didn't want to let this sit unresolved, or leave you thinking I don't take it seriously. I do, because you do too, to me.
         <br /><br />
         take whatever time you need. I'm not going anywhere, and I'm not going to push you to respond faster than you're ready to.
       </div>
 
       <p className="lead" style={{ marginBottom: 32 }}>
-        whenever you're ready — I'm here.
+        whenever you're ready, I'm here.
       </p>
 
       <Link to="/message" className="btn">say whatever you want to say →</Link>
