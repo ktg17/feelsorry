@@ -1,14 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
-const IMAGINE_ROUTE = '/closeeyes'
-// Soft piano carries the closing stretch, from "I still hate you btw." onward.
-const SOFT_ROUTES = ['/tease', '/forward', '/message']
+// imagine.mp3 starts on the close-your-eyes page and keeps playing to the end.
+const IMAGINE_ROUTES = ['/closeeyes', '/tease', '/forward', '/message']
 
 function trackFor(pathname) {
-  if (pathname === IMAGINE_ROUTE) return '/imagine.mp3'
-  if (SOFT_ROUTES.includes(pathname)) return '/soft.mp3'
-  return '/sorry.mp3'
+  return IMAGINE_ROUTES.includes(pathname) ? '/imagine.mp3' : '/sorry.mp3'
 }
 
 export default function MusicPlayer() {
