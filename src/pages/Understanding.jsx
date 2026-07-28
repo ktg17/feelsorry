@@ -38,7 +38,7 @@ export default function Understanding() {
       </div>
 
       {visible >= PARTS.length && (
-        <Link to="/forward" className="btn" style={{ marginTop: 32, animation: 'fadeUp .5s ease both' }}>
+        <Link to="/tease" className="btn" style={{ marginTop: 32, animation: 'fadeUp .5s ease both' }}>
           continue →
         </Link>
       )}
