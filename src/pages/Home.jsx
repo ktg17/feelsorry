@@ -6,7 +6,7 @@ export default function Home() {
       alignItems: 'center', justifyContent: 'center', minHeight: '85vh', textAlign: 'center' }}>
 
       <p style={{ color: 'var(--muted)', fontSize: 14, marginBottom: 18, letterSpacing: 0.5 }}>
-        for dhruviieee
+        dhruviieee
       </p>
 
       <h1 className="h1" style={{ marginBottom: 18 }}>
