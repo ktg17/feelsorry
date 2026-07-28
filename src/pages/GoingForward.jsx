@@ -9,11 +9,11 @@ export default function GoingForward() {
 
       <div className="card" style={{ maxWidth: 560, textAlign: 'left', fontSize: 15.5,
         lineHeight: 1.8, marginBottom: 20 }}>
-        I'm not writing this expecting things to just go back to normal right away. I know that's not really how it works.
+        I just wanted to be understood by someone I care about. or else…
         <br /><br />
-        I just didn't want to let this sit unresolved, or leave you thinking I don't take it seriously. I do, because you do too, to me.
+        that's really all this was. not to win the argument, not to prove a point — just to be read properly by you, for once.
         <br /><br />
-        take whatever time you need. I'm not going anywhere, and I'm not going to push you to respond faster than you're ready to.
+        I'm not asking for anything back right now. take your time. I'm not going anywhere.
       </div>
 
       <p className="lead" style={{ marginBottom: 32 }}>
@@ -23,7 +23,7 @@ export default function GoingForward() {
       <Link to="/message" className="btn">say whatever you want to say →</Link>
 
       <div style={{ marginTop: 24 }}>
-        <Link to="/understanding" style={{ color: 'var(--muted)', fontSize: 13 }}>← back</Link>
+        <Link to="/tease" style={{ color: 'var(--muted)', fontSize: 13 }}>← back</Link>
       </div>
     </div>
   )

@@ -13,10 +13,9 @@ export default function ITeaseYou() {
         maxWidth: 600,
       }}>
         I still hate you btw.
-        <br />just so we're clear.
       </p>
 
-      <Link to="/songs" className="btn" style={{ marginTop: 40 }}>
+      <Link to="/forward" className="btn" style={{ marginTop: 40 }}>
         continue →
       </Link>
     </div>
